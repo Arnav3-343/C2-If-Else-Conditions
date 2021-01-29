@@ -30,3 +30,40 @@ else:
 print("bye")
 '''
  > bye
+
+ ## Nested Conditional statements
+
+ A conditional statement inside another conditional statement
+
+ ### Indentation
+
+ The header/clause of a nested conditional statement must be indented from an outer header
+
+ ### Formula:
+
+ if(condition)
+ if(condition): <-- Starting a nested statement
+Body Statement 
+elif(condition):
+Body Statement
+else:
+Body Statement: <-- End of nested statement
+elif(Statement)
+ Body Statement
+ else:
+  Body Statement
+
+
+  Ex.
+
+
+  x=10
+  y=10
+  if(x < y):
+   print("x is less than y")
+   else:
+   if(x > y):
+   print("x is greater than y")
+    else:
+    print("x and y must be equal")
+    > x and y must be equal
