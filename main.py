@@ -23,24 +23,25 @@ else:
  
  # math quadrants
 
-x=int(input("Please give me a x values"))
-y=int(input("Please give me a y value")) 
- 
-if(x > 0):
-  if(y > 0):
-    print("Your number is in the first quadrant")
-else:
-  print("Your number is in the fourth Quadrent")
-elif(x <  0):
-  if(y < 0):
-    print("Your number is in the third Quadrant")
-  if(y < 0):
-    print("Your number is in the third quadrent")
-
-    if(x==0 and y==0)
-    print("You are on the origin")
-
     # and, or
+
+if(x==0 and y ! = 0):
+      print("you are on the y axis")
+if(y==0 and x != 0)
+      print("you are on the x axis")
+
+      x=5
+      y=6
+      z=7
+      if(x==5 and y==5 or z==5):
+      print("Yay")
+      else:
+        print("Nay")
+
+    if(x==5 or y==5 and z == 5):
+      print("Yay")
+      else:
+        print("Nay")
 
   
 

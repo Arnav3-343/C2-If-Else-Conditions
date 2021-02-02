@@ -67,3 +67,18 @@ elif(Statement)
     else:
     print("x and y must be equal")
     > x and y must be equal
+
+    ## order of operations
+
+    1.() Parentheses
+    2.** Exponents
+    3.-a, +a Negeative, positive arguements
+    4. *, /,//. % Multiplication ,Division,Quotient,Modulus
+    5.+,- ,Addition, Subtraction
+    6.<,<=, >,>=, ==, != Comparicon Operators
+    7.not Boolean not
+    8.And Boolean and
+    9.or Boolean or
+
+a++ --> a=a+1
+a -- --> a=a-1
